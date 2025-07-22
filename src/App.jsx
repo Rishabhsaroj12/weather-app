@@ -1,5 +1,5 @@
 import Weatherapp from "./Weatherapp.jsx";
-import Footer from "./Footer.jsxr";
+import Footer from "./Footer.jsx";
 // import "./App.css";
 function App() {
 
