@@ -1,0 +1,30 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.05);
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+  border-top: 1px solid #ccc;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #0077b5;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #000;
+}
+.footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}

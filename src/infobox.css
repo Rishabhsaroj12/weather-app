@@ -1,0 +1,46 @@
+/* infobox.css */
+.infobox {
+    text-align: center;
+    border-radius: 70px !important;
+    padding: 1rem;
+}
+
+.cardcontainer {
+    display: flex;
+    justify-content: center;
+    backdrop-filter: blur(4px);
+}
+.infobox h1 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+/* Optional: Enhance image inside MUI CardMedia */
+.MuiCardMedia-root {
+  object-fit: cover;
+  height: 180px !important;
+}
+
+/* Typography inside card content */
+.MuiCardContent-root {
+  padding: 20px;
+}
+
+.MuiTypography-root div,
+.MuiTypography-root p {
+  margin-bottom: 6px;
+  font-size: 15px;
+  color: #444;
+}
+
+.MuiTypography-root p i {
+  color: #666;
+}
+
+.MuiTypography-root h5,
+.MuiTypography-h5 {
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 10px;
+  color: #333;
+}
