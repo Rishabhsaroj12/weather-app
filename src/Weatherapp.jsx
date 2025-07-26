@@ -29,7 +29,17 @@ export default function WeatherApp() {
 
     return (
         <div style={backgroundStyle}>
-            <h2 style={{ color: 'white', textAlign: 'center' }}>Know Weather</h2>
+           <h2 style={{
+  color: 'white',
+  textAlign: 'center',
+  fontFamily: '"Poppins", sans-serif',
+  fontWeight: '700',
+  fontSize: '2.5rem',
+  letterSpacing: '2px',
+  textShadow: '2px 2px 8px rgba(0,0,0,0.5)'
+}}>
+  Know Weather
+</h2>
             <SearchBox updateinfo={updateinfo} />
             <Infobox info={weatherinfo} />
         </div>

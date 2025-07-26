@@ -47,19 +47,29 @@ export default function InfoBox({ info}) {
   </Typography>
 
   <Typography
-    variant="body2"
-    component="div"
-    sx={{ fontSize: '1rem', color: '#444', lineHeight: 1.6 }}
-  >
-    <div>🌡️ Temperature: {info.temp}&deg;C</div>
-    <div>💧 Humidity: {info.humidity}%</div>
-    <div>🌡️ Min Temp: {info.temp_min}&deg;C</div>
-    <div>🌡️ Max Temp: {info.temp_max}&deg;C</div>
-    <p>
-      🌥️ The weather is <i>{info.weather}</i> <br />
-      🤒 Feels like: {info.feelslike}&deg;C
-    </p>
-  </Typography>
+  variant="body2"
+  component="div"
+  sx={{
+    fontSize: '1rem',
+    color: '#333',
+    lineHeight: 1.8,
+    fontFamily: '"Poppins", sans-serif',
+    fontWeight: 500,
+    backgroundColor: 'rgba(255,255,255,0.6)',
+    padding: '10px',
+    borderRadius: '8px'
+  }}
+>
+  <div>🌡️ <strong>Temperature:</strong> {info.temp}&deg;C</div>
+  <div>💧 <strong>Humidity:</strong> {info.humidity}%</div>
+  <div>🌡️ <strong>Min Temp:</strong> {info.temp_min}&deg;C</div>
+  <div>🌡️ <strong>Max Temp:</strong> {info.temp_max}&deg;C</div>
+  <p>
+    🌥️ The weather is <i>{info.weather}</i> <br />
+    🤒 Feels like: {info.feelslike}&deg;C
+  </p>
+</Typography>
+
 </CardContent>
 
       
